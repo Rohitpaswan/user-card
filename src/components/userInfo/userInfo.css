@@ -4,7 +4,7 @@
     width: 100%;
     position: absolute;
     top: -8rem;
-   
+
 
 }
 
@@ -17,7 +17,7 @@
     padding-bottom: .5rem;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-   
+
 }
 
 /* userProfile Image  */
@@ -65,15 +65,17 @@
 
 }
 
-.detailLabel{
- font-size: 24px;
- font-weight: 600;
- color: #999;
+.detailLabel {
+    font-size: 24px;
+    font-weight: 600;
+    color: #999;
 }
-.detailValue{
+
+.detailValue {
     font-size: 38px;
 
 }
+
 .options {
     width: 100%;
     height: 30%;
@@ -94,37 +96,41 @@
 
 /* Mid-screen devices */
 
-@media  (max-width :600px) {
-    .userInfo{
-        top:-6rem;
+@media (max-width :600px) {
+    .userInfo {
+        top: -6rem;
     }
-    .detailLabel{
+
+    .detailLabel {
         margin-top: 30px;
-      
-            }
-    .detailValue{
-      
+
+    }
+
+    .detailValue {
+
         font-size: 30px;
         font-weight: 600;
         padding: 0 3px;
     }
-    .icon{
+
+    .icon {
         font-size: 32px;
     }
-    .user{
+
+    .user {
         font-size: 30px;
     }
 }
 
 /* small-screen device */
 
-@media  (max-width :400px){
-    .avatarContainer img{
+@media (max-width :400px) {
+    .avatarContainer img {
         width: 150px;
         height: 150px;
     }
- 
-    .detailValue{
-font-size: 28px;
+
+    .detailValue {
+        font-size: 28px;
     }
 }
